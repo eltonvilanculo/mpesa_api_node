@@ -1,0 +1,13 @@
+{
+  "name": "mpesa",
+  "version": "1.0.0",
+  "description": "beta version",
+  "main": "app.js",
+  "author": "Elton Vilanculo",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  }
+}

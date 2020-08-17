@@ -32,7 +32,7 @@ const pay =  function (number ,  amount ,  req , res ) {
         },
     })
         .then(res => res.json())
-        .then(json => console.log(json));
+        .then(json => res.send(json)).catch(err=>res.send(JSON.stringify(err)));
 }
 
 module.exports = {

@@ -8,7 +8,7 @@ const pay =  require('../controller/PaymentController')
 
 Routes.get('/pay' , function (req , res) {
 
-    pay.pay(845204801 , 5  , res)
+    pay.pay(845204801 , 5  , req , res)
 })
 
 module.exports = Routes ;

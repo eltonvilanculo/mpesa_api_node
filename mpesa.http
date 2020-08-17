@@ -1,0 +1,14 @@
+POST /ipg/v1x/c2bPayment/singleStage/ HTTP/1.1
+Host: api.sandbox.vm.co.mz
+Content-Type: application/json
+Authorization: Bearer X0F6A4DuHA/ZuGKS+j4JVgWz0fNZ3CPfGw9rBvt0jiym75eB8df8z6tIyKaHbSuzYVsozvldiOLbfdaJrhbAPcS82bNPWaIOoxIJLLIrFqU3ZrteEgGjk8yrFCLZYVlX+KQXlcQ7ud07nL3ULFRNM4xkaZ7mjss5wHiZSM5nrVyp4c7EcthWgrOaF/LsK7XYBIVkjdfIf6eIf5H7/tlQPpumh8Ce5FGknZjI8zttqRL+CQVR/YyCccxvK4v+h/4RCs4n3UDcRNpjzU+SfGEdtQvMx9Y474uTMKr9PHzlMCtBRvLRz6ArFCDXeS4T/wYoqQ6armtfzid3vVGBn5qI9XP7A8GYXYIPphL2GlvrR2k671/AddjQNpW9gVkRKL9JYKuD+qS8f443o/hC4hrL6nTocMZFOxmGKGnKsE9oYvVNlHyUpS+1vgRUdGljc2D0TP4Ufiqmm8PZ8m3Tx4/W7RvBofEx6KpaJyWYi6ggCnUHr8/j8Y8y55Oqgi32yzlGlK1XXijV9sxxCdETjFmq7VdpxsMGm8WIBloNMYtlnN8JXt2Zj5jHaUZPxtB6IrmV5aC+sqw7YT0//py0sagMkdpkH/T851b0rtzwIj59btCOxZcrnauwCZNJ6TcarrgeV+0eyh09QzTOAR7GGim/qSpQHiRDxcF0KhMB5ydqyvo=
+Origin: developer.mpesa.vm.co.mz
+
+
+{
+  "input_TransactionReference": "T12344C",
+  "input_CustomerMSISDN": "258845204801",
+  "input_Amount": "10",
+  "input_ThirdPartyReference": "S023RM",
+  "input_ServiceProviderCode": "171717"
+}

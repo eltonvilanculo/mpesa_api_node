@@ -1,7 +1,7 @@
 const express = require('express') ;
 const fetch = require('node-fetch');
 const app = express() ;
-const PORT = 8000 ;
+const PORT = 8002 ;
 const route =  require('./routes/PaymentRoutes') ;
 
 app.use(function (req, res, next) {

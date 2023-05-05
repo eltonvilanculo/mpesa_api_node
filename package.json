@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "beta version",
   "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "author": "Elton Vilanculo",
   "license": "MIT",
   "dependencies": {
